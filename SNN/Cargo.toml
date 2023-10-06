@@ -1,0 +1,18 @@
+[package]
+name = "SNN"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+tokio = { version = "1.28.2", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+ndarray = "0.15.4"
+ndarray-npy = "0.8.1"
+handlebars = "4.3.7"
+num-traits = "0.2.16"
+text_io = "0.1.12"
